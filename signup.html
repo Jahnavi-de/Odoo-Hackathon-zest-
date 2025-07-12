@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Skill Swap</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Create Your Profile</h1>
+        <form id="signupForm">
+            <input type="text" placeholder="Full Name" required/>
+            <input type="text" placeholder="Location" />
+            <input type="text" placeholder="Profile Photo url"/>
+            <input type="text" placeholder="skills offered" required/>
+            <input type="text" placeholder="skills wanted" required/>
+
+            <label>Availability:</label><br/>
+            <label><input type="checkbox" name="availability" value="weekdays"/>Weekdays</label><br/>
+            <label><input type="checkbox" name="availability" value="Evenings"/>Eevenings</label><br/>
+            <label><input type="checkbox" name="availability" value="weekends"/>Weekends</label><br/><br/>
+
+            <label>Profile Visibility:</label><br/>
+            <label><input type="radio" name="visibility" value="public" checked/>Public</label>
+            <label><input type="radio" name="visibility" value="private" checked/>Private</label><br/><br/>
+
+            <input type="password" placeholder="Password" required/>
+            <input type="password" placeholder="Confirm Password" required/>
+
+            <button type="submit" class="btn">Sign Up</button>
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+
+        </form>
+    </div>
+</body>
+</html>
