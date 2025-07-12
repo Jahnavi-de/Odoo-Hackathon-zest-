@@ -1,6 +1,6 @@
 # Odoo-Hackathon-zest-
 
-Here's a polished and professional `README.md` for your GitHub project **Odoo-Hackathon-Zest: Skill Swap Platform**:
+**Odoo-Hackathon-Zest: Skill Swap Platform**:
 
 ---
 
