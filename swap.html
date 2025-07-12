@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Send Swap Request - Skill Swap</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="profile-view-card">
+      <h2>📩 Send Skill Swap Request</h2>
+      <p id="toUser">To: (User)</p>
+
+      <form id="swapForm">
+        <label for="message">Your Message:</label>
+        <textarea id="message" rows="5" placeholder="Hi! I'd love to connect and exchange skills..." required></textarea>
+
+        <label>Preferred Days:</label><br />
+        <label><input type="checkbox" name="day" value="Weekdays" /> Weekdays</label><br />
+        <label><input type="checkbox" name="day" value="Weekends" /> Weekends</label><br /><br />
+
+        <button type="submit" class="btn">Send Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Load profile name from localStorage
+    const profile = JSON.parse(localStorage.getItem("selectedProfile"));
+    const toUser = document.getElementById("toUser");
+    const swapForm = document.getElementById("swapForm");
+
+    if (profile) {
+      toUser.innerText = `To:${profile.name}`;
+    }
+
+    swapForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      alert("Your request has been sent to " + profile.name + "!");
+      // Optional: Save to localStorage or backend here
+      window.location.href = "browse.html";
+    });
+  </script>
+</body>
+</html>
