@@ -40,10 +40,10 @@ A mini application built for the **Odoo Hackathon - Zest**, the **Skill Swap Pla
 
 ## 👩‍💻 Participants
 
-| Name               | GitHub ID                                   | Email ID
-| ------------------ | ------------------------------------------- |
-| Jahnavi Srivastava | [Jahnavi-de](https://github.com/Jahnavi-de) |jahnavisrivastava10@gmail.com
-| Riyanka Jaiswal    | [RIY7ANKA](https://github.com/RIY7ANKA)     |Riyanka7jaiswal@gmail.com
+| Name               | GitHub ID                                   | Email ID                     |
+| ------------------ | ------------------------------------------- |----------------------------- |
+| Jahnavi Srivastava | [Jahnavi-de](https://github.com/Jahnavi-de) |jahnavisrivastava10@gmail.com |
+| Riyanka Jaiswal    | [RIY7ANKA](https://github.com/RIY7ANKA)     |Riyanka7jaiswal@gmail.com     |
 
 ---
 
