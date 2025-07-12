@@ -15,3 +15,7 @@ Request & Accept Swaps:
 ○ Show current and pending swap requests
 Ratings or feedback after a swap
 The user is also able to delete the swap request if it is not accepted.
+
+Participants:
+Jahnavi Srivatava(github id:Jahnavi-de). 
+Riyanka Jaiswal(github id:RIY7ANKA). 
