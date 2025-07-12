@@ -50,6 +50,7 @@ A mini application built for the **Odoo Hackathon - Zest**, the **Skill Swap Pla
 ## 🛠 Tech Stack
 
 * **HTML/CSS/JS**
+* **Python**
 * **Machine Learning**
 ---
 
